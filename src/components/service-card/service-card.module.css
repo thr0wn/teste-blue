@@ -1,0 +1,35 @@
+.icons {
+  display: flex;
+  flex-direction: row;
+  height: min-content;
+  transition: opacity 300ms;
+  position: absolute;
+  right: -16px;
+  top: -16px;
+}
+
+.icons button {
+  margin: 0;
+}
+
+.card {
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+}
+
+.card .icons {
+  opacity: 0;
+  display: none;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover .icons {
+  opacity: 1;
+}
