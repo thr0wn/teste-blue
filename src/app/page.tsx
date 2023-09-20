@@ -11,7 +11,7 @@ interface Service {
   status: StatusType;
 }
 
-export const getData = async () => {
+const getData = async () => {
   const response = await fetch(String(process.env.API), {
     next: { revalidate: Number(process.env.NEXT_REVALIDATE) },
   });
