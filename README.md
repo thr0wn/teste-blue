@@ -16,3 +16,6 @@ yarn install
 ```bash
 yarn dev
 ```
+
+## Mock dos serviços externos
+Os serviços externos estão localizados em https://gist.githubusercontent.com/thr0wn/2acf0100ec28f1187b61d1c71ee67d8e/raw/0f683c7a9bf746035d19ad0f60ccafd6237a24d7/file.json. Para alterar essa localização basta editar o `.env`.
